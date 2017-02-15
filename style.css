@@ -1,0 +1,41 @@
+* {
+	background-color: #d2d2d2!important;
+}
+p.header {
+	font-size: 40px;
+	color: #626262;
+	text-align: center;
+	margin-top: 10%;
+}
+p.info {
+	font-size: 20px;
+	color: #7c7c7c;
+	text-align: center;
+}
+.working-place {
+	text-align: center;
+}
+select {
+	width: 15%;
+	border-radius: 120px;
+	text-align: center;
+}
+input.way-input {
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	border-radius: 120px;
+	width: 15%;
+}
+button.btn-kill {
+	border-color: #919191;
+	width: 5%;
+	color: black;
+	font-weight: bolder;
+	font-size: 20px;
+}
+.how-much {
+	color: darkred;
+	font-weight: bolder;
+	font-size: 20px;
+	text-align: center;
+}

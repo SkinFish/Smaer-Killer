@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smart Killer</title>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="info-text">
+		<p class="header">Smart Killer</p>
+		<p class="info">
+			1. Choose the method of killing <br>
+			2. Enter the number of people <br>
+			3. Press "Kill" <br>
+		</p>
+	</div>
+	<div class="working-place">
+		<select class="wk">
+		    <option value='1' selected='selected'>Cyanide</option>
+		    <option value='2'>Chocolate</option>
+		    <option value='3'>Heroin</option>
+		    <option value='4'>Water</option>
+		    <option value='5'>Red Bull</option>
+		    <option value='6'>Mercuric Chloride</option>
+		    <option value='7'>Coffee</option>
+		    <option value='8'>Sugar</option>
+		    <option value='9'>Salt</option>
+		    <option value='10'>Aspirin</option>
+		    <option value='11'>Beer</option>
+
+		</select><br>
+		<input type="text" value="1" class="way-input"><br>
+		<button type="button" class="btn-kill" onclick="killClick();">Kill</button><br>
+	</div>
+	<div class="results">
+		<p class="how-much"></p>
+	</div>
+
+
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
